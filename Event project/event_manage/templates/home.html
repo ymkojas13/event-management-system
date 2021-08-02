@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Home</title>
+</head>
+<body  style="background-image:url({% static '/img/image1.jpg' %});background-repeat:no-repeat;background-size: 1800px 800px;">
+  <div class="container">
+    <div class="center" style="position: absolute; top: 50%; width: 75%; text-align: center; font-size: 18px;">
+    <h1><font color="#5B2C6F">Event Management Introduction </font></h1>
+    <div class="contianer">
+      <p>
+        <font color="#F39C12">
+      We all love to celebrate and need little reason to celebrate – whether it
+be winning the World Cup or the Common Wealth Games or birthdays,
+Graduation party, weddings etc. in the family. Celebrations are an integral
+part of our life and often a symbol of happiness. However, modern lifestyles,
+busy work schedules, smaller families and participation of women in the
+workforce, have resulted in less manpower and time to plan, organise and
+execute such events. Hence many people prefer to use the services of an
+expert (who has the know-how and takes care of the minutest details) to
+plan and execute such events. Nowadays organisations and institutions
+also hire the services of such experts to organise a variety of events. This
+is referred to as ‘outsourcing’. Experts who undertake this work are known as event planners or event managers. They provide consultancy and
+undertake all tasks right from the planning stage till the final execution
+of the event. Involvement of such experts has made celebrations and
+occasions easier, enjoyable and stress-free for the client.  </font>
+    </p>
+      <p><h3><font color="#5B2C6F">Event Management Significance</font></h3>
+      <font color="#F39C12">
+        Events have been defined by the famous economist Philip Kotler (2004)
+as ‘occurrences designed to communicate particular messages to target
+audiences’.
+Events are celebrations that provide an opportunity to meet and share
+happy moments with family members, relatives, colleagues and friends. A
+family event is envisaged as an opportunity to meet old friends and relatives
+and develop new relationships with unknown people. Besides this, events
+are an integral part of professional life, may it be corporate houses, nonprofit organisations or Government sector. Corporate sector organises event
+to present its services or products in an acceptable manner to its ultimate
+customer(s) as well as to enhance its own image. Such events are seen as
+an outcome of public relations strategy with inputs from advertising, sales
+promotion and multi-level marketing. The Government sector uses events
+as a platform to enhance its own image. Since events of different kinds
+need to be organised all round the year, this has given rise to the Event
+Management industry which revolves around all sections of the society.
+
+      </p>
+
+        <p><h3><font color="#5B2C6F">Event Management Basic concepts</font></h3></font></p>
+        <p><h2><font color="#5B2C6F">Categarisation of events</font></h2></p>
+
+      <p>Events can be described as a public assembly for the purpose of celebration,
+education, marketing or reunion. They can be classified on the basis of
+their size, type and context, as listed below:
+      </p><br>
+      1. Events can be grouped under the following heads based on the
+context:<br>
+      i. Family events are those where family members, relatives, friends join
+together to celebrate an occasion e.g., birthday, marriage, wedding
+anniversary, house-warming or religious functions.
+<br>
+      ii. Community events are those where members of a particular
+community get together to celebrate occasions like Christmas, Holi,
+Diwali , Independence Day.<br>
+
+
+
+
+    </div>
+    <a class="btn btn-primary btn-lg" href="{% url 'about' %}" role="button">About me</a>
+  </div>
+  </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
+
+{% endblock %}
