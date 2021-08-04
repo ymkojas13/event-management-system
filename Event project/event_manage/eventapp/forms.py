@@ -1,9 +1,9 @@
 from django import forms
-from .models import online
+from .models import registermodel
 
-class onlineform(forms.ModelForm):
+class registerform(forms.ModelForm):
     class Meta:
-        model = online
+        model = registermodel
         fields = '__all__'
         widgets={
             'Firstname':forms.TextInput(attrs={'class':'form-control'}),
